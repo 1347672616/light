@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* 重置样式 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    /* 16px = 1rem */
+    /* font-size: 16px; */
+    font-size: 62.5%;
+    user-select: none;
+}
+
+html,
+body {
+    /* 滚动条的滚动的行为缓动 */
+    scroll-behavior: smooth;
+}
+
+input {
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* 加载自定义字体 */
+/* 粗体 */
+@font-face {
+    font-family: OSBold;
+    src: url('/assets/fonts/OpenSans-Bold.ttf');
+}
+
+/* 斜体 */
+
+@font-face {
+    font-family: OSLtalic;
+    src: url('/assets/fonts/OpenSans-Italic.ttf');
+}
+
+/* 细的 */
+
+@font-face {
+    font-family: OSLight;
+    src: url('/assets/fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('/assert/fonts/iconfont.woff2?t=1646791688573') format('woff2'),
+        url('/assert/fonts/iconfont.woff?t=1646791688573') format('woff'),
+        url('/assert/fonts/iconfont.ttf?t=1646791688573') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
