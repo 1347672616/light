@@ -181,9 +181,9 @@ a {
 
 @font-face {
     font-family: 'iconfont';
-    src: url('/assert/fonts/iconfont.woff2?t=1646791688573') format('woff2'),
-        url('/assert/fonts/iconfont.woff?t=1646791688573') format('woff'),
-        url('/assert/fonts/iconfont.ttf?t=1646791688573') format('truetype');
+    src: url('../fonts/iconfont.woff2?t=1646791688573') format('woff2'),
+        url('../fonts/iconfont.woff?t=1646791688573') format('woff'),
+        url('../fonts/iconfont.ttf?t=1646791688573') format('truetype');
 }
 
 .iconfont {
